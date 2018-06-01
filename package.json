@@ -1,0 +1,22 @@
+{
+    "name": "reptilian-bj-rent",
+    "version": "1.0.0",
+    "description": "爬虫，爬取豆瓣北京租房小组",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "babel-node index.js"
+    },
+    "keywords": [
+        "爬虫"
+    ],
+    "author": "xb",
+    "license": "ISC",
+    "dependencies": {
+        "async": "^2.6.1",
+        "cheerio": "^1.0.0-rc.2",
+        "eventproxy": "^1.0.0",
+        "express": "^4.16.3",
+        "superagent": "^3.8.3"
+    }
+}
